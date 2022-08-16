@@ -12,7 +12,7 @@ public class FlipCoin {
         int h = 0;
         int t = 0;
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             double flip = Math.floor(Math.random() * 10) % 2;
             if (flip< 0.5) {
                 h++;
